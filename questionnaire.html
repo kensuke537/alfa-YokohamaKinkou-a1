@@ -50,14 +50,6 @@
 </body>
 </html>
 
-  removeAllChildren(tweetDivided);
-  const anchor = document.createElement('a');
-  const hrefValue =
-    'https://twitter.com/intent/tweet?button_hashtag=' +
-    encodeURIComponent('あなたのいいところ') +
-    '&ref_src=twsrc%5Etfw';
-  anchor.setAttribute('href', hrefValue);
-  anchor.className = 'twitter-hashtag-button';
-  anchor.setAttribute('data-text', result);
-  anchor.innerText = 'Tweet #とある研究所からの脱出PN';
-  tweetDivided.appendChild(anchor);
+
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

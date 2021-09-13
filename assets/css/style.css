@@ -292,6 +292,9 @@ button {
 }
 
 .section-title--keycolor {
+  background-color: #39b54a;
+}
+.section-title--Burlywood {
   background-color: #deb887;
 }
 
